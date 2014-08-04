@@ -6,15 +6,17 @@ Allows you to use [Twig](http://twig.sensiolabs.org/) seamlessly in [Laravel 4](
 [![Coverage Status](https://coveralls.io/repos/rcrowe/TwigBridge/badge.png?branch=0.6)](https://coveralls.io/r/rcrowe/TwigBridge?branch=0.6)
 [![License](https://poser.pugx.org/rcrowe/twigbridge/license.png)](https://packagist.org/packages/rcrowe/twigbridge)
 
+**NOTE**: This is a fork of current TwigBridge by Robert Crowe. I maintained this because the current beta stage forces us to use dev branch of all repos. I do not want to use dev branch for all components, personally :)
+
 Installation
 ============
 
-Add `rcrowe\twigbridge` as a requirement to composer.json:
+Add `gencer/twigbridge-laravel-4` as a requirement to composer.json:
 
 ```javascript
 {
     "require": {
-        "rcrowe/twigbridge": "0.6.*"
+        "gencer/twigbridge-laravel-4": "0.6.*"
     }
 }
 ```
